@@ -8,5 +8,6 @@ namespace StudentExercisesAPI.Data
         public string SlackHandle { get; set; }
         public string Specialty { get; set; }
         public Cohort Cohort { get; set; }
+        public int CohortId { get; set; }
     }
 }
